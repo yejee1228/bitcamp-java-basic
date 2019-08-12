@@ -9,10 +9,10 @@ class WhatName {
         // 새로운 스캐너이다. 키보드에서 입력받는 값
         name = scanner.next();
         //스케너에서 입력받는 값을 name에 받아준다.
-        System.out.println("이름은 " + name + "입니다.");
+        System.out.println(String.format("이름은 %s 입니다", name));
         System.out.println("몇살이에요?");
         int age = 0;
         age = scanner.nextInt();
-        System.out.print("나이는 " + age + "살 입니다.");
+        System.out.print(String.format("나이는 %d살 입니다.", age));
     }
 }
